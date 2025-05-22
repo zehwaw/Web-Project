@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="assets/gvl-cactif.png"
+      type="image/x-icon"
+    />
+    <title>ByteSquad</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediascreen.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#intro"><img src="assets/bs.png" alt="" /></a>
+      </div>
+      <div class="nav-items">
+        <ul class="nav-list">
+          <li class="items" onclick="itemsClick(this)">
+            <a href="#notre-histoire" class="atems"><h3>Notre histoire</h3></a>
+          </li>
+          <li class="items" onclick="itemsClick(this)">
+            <a href="#nos-activites" class="atems"><h3>Nos activités</h3></a>
+          </li>
+          <li class="items" onclick="itemsClick(this)">
+            <a href="#notre-equipe" class="atems"><h3>Notre équipe</h3></a>
+          </li>
+
+          <li class="items" onclick="itemsClick(this)">
+            <a href="#nous-rejoindre" class="atems"><h3>Nous rejoindre</h3></a>
+          </li>
+          <li class="items" onclick="itemsClick(this)">
+            <a href="#contact" class="atems"><h3>Contact</h3></a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu" onclick="myFunction(this)">
+        <div class="bar first"></div>
+        <div class="bar second"></div>
+        <div class="bar thirst"></div>
+      </div>
+    </nav>
+    <section class="intro" id="intro">
+      <div class="backnav"></div>
+      <div class="intro-tl">
+        <img src="assets/intro-tl.png" alt="" />
+      </div>
+      <div class="intro-br"><img src="assets/intro-br.png" alt="" /></div>
+      <div class="intro-txt">
+        <h1>ByteSquad</h1>
+        <h4>
+          une communauté de passionnés du code et des nouvelles technologies,
+          Partage, entraide, projets.
+        </h4>
+        <a href="#notre-histoire"><button>Notre histoire</button></a>
+      </div>
+    </section>
+    <section class="notre-histoire" id="notre-histoire">
+      <div class="histoire-title">
+        <h2>Notre Histoire & Mission</h2>
+        <div class="bar"></div>
+      </div>
+      <div class="histoire-details">
+        <div class="histoire-txt">
+          D'où venons-nous ? <br /><br />Fondé en 2024 par une équipe de
+          développeurs passionnés, ByteSquad est né du constat que
+          l'apprentissage solitaire du code présente des limites. Notre ambition
+          ? Briser l'isolement des programmeurs en créant un écosystème
+          dynamique favorisant les échanges concrets. <br /><br /><br />
+          Notre Philosophie <br /><br />Apprentissage par la pratique : Pas de
+          cours théoriques ennuyeux, mais des ateliers concrets. <br />
+          Collaboration > Compétition : Nous croyons à la force du travail
+          d'équipe. <br />
+          Accessibilité : Tous nos événements principaux sont gratuits.
+          <br />
+          <br /><br />
+          Chiffres Clés <br />
+          <br />🚀 3 ans d'existence <br />👨‍💻 500+ membres actifs <br />🛠️ 20+
+          projets open-source lancés <br />🏆 5 hackathons organisés
+        </div>
+
+        <div class="histoire-img">
+          <img src="assets/pexels-shkrabaanthony-5475750.jpg" alt="" />
+          <img src="assets/pexels-shkrabaanthony-5475752.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="nos-activites" id="nos-activites">
+      <div class="activite-title">
+        <h2>Nos activités</h2>
+        <div class="bar"></div>
+      </div>
+      <div class="activite-details">
+        <div class="option">
+          <h3>Les Coding Nights</h3>
+          <p>
+            Tous les jeudis de 18h à 21h Session de codage collaboratif Tables
+            thématiques (Web, IA, Mobile...) Buffet et boissons offerts
+          </p>
+        </div>
+        <div class="option">
+          <h3>Les Hackathons Thématiques</h3>
+          <p>
+            4 grands événements par an Thèmes passés : "Santé connectée" (2023)
+            "Accessibilité numérique" (2024) Prix à gagner : Matériel tech,
+            mentorat, incubation
+          </p>
+        </div>
+        <div class="option">
+          <h3>Le Programme Mentorat</h3>
+          <p>
+            Parrainage des nouveaux membres Revue de code personnalisée Parcours
+            d'apprentissage sur mesure
+          </p>
+        </div>
+        <div class="option">
+          <h3>Les Ateliers Thématiques</h3>
+          <p>
+            Calendrier mensuel : Mois Sujet Niveau Sept. Introduction à React
+            Débutant Oct. CI/CD avec GitHub Intermédiaire Nov. Sécurité Web
+            Avancé
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="notre-equipe" id="notre-equipe">
+      <div class="equipe-title">
+        <h2>Notre équipe</h2>
+        <div class="bar"></div>
+      </div>
+      <div class="equipe-details">
+        <div class="card">
+          <img src="assets/zehwa.jpg" class="cg" alt="" />
+          <div class="card-txt">
+            <h4>Meghzouchene Zehwa</h4>
+            <p>Front-End Developer</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/yasmine.jpg" alt="" />
+          <div class="card-txt">
+            <h4>Ait Zaï Yasmine</h4>
+            <p>Back-End Developer</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/yanis.JPG" alt="" />
+          <div class="card-txt">
+            <h4>Behlouli Yanis</h4>
+            <p>Web Designer</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/user.png" alt="" />
+          <div class="card-txt">
+            <h4>Badreddine Nazim</h4>
+            <p>Event Manager</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/user.png" alt="" />
+          <div class="card-txt">
+            <h4>Boughambouz Othmane</h4>
+            <p>Community Manager</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="assets/lydia.JPG" alt="" />
+          <div class="card-txt">
+            <h4>Tata Lydia</h4>
+            <p>Event Coordinator</p>
+          </div>
+        </div>
+        <!-- <div class="card"><p>Ainsi que nos biens aimés bénévoles !</p></div> -->
+      </div>
+    </section>
+
+    <section class="nous-rejoindre" id="nous-rejoindre">
+      <div class="join-title">
+        <h2>Devenir membre</h2>
+        <div class="bar"></div>
+      </div>
+      <div class="join-details">
+        <div class="first-part">
+          <p>
+           Vous souhaitez apprendre à coder dans une ambiance collaborative et stimulante ?
+DevLink, votre communauté tech locale, vous ouvre ses portes ! Que vous soyez débutant ou développeur confirmé, nos espaces de coworking et événements sont conçus pour progresser ensemble autour de projets concrets.
+Cafés-codage, hackathons et mentorat vous attendent !s
+          </p>
+          <a href="mailto:bytesquad@gmail.com"
+            ><button>Rejoins-nous !</button></a
+          >
+        </div>
+        <div class="second-part">
+          <div class="join-img">
+            <img src="assets/istockphoto-1469706478-612x612.jpg" alt="" />
+            <img src="assets/af5c46c6-359c-4ae9-be38-5f909cdda46e_large.webp" alt="" />
+          </div>
+          <!-- <p>
+            Vous souhaitez pratiquer une activité sportive dans une ambiance
+            conviviale et dynamique? GVL C'Actif, basé au Lamentin en
+            Martinique, vous accueille!
+          </p>
+        </div> -->
+      </div>
+    </section>
+    <section class="be-member">
+      <div class="join-title">
+      <h2>Formules et Processus d'adhésion</h2>
+      <div class="bar"></div>
+    </div>
+  <div class="be-member-details"> 
+    <div class="member-offer"><div class="name-offer">Membre Actif <br> <span class="price">50€/an</span> </div><div class="details-offer">✓ Accès illimité aux événements <br>
+
+      ✓ Accès au Slack premium <br>
+      
+      ✓ 1h de mentorat/mois</div><div class="btn-offer"><button class="price-offer">Obtenir Membre Actif</button></div></div>
+
+    <div class="member-offer"><div class="name-offer">Membre Étudiant<br> <span class="price">25€/an</span></div><div class="details-offer">✓ Réduction de 50%</div><div class="btn-offer"><button class="price-offer">Obtenir Membre Étudiant</button></div></div>
+    <div class="member-offer"><div class="name-offer">Membre Bienfaiteur<br> <span class="price">100€/an</span></div><div class="details-offer">✓ Accès VIP aux événements <br>
+      
+      ✓ Votre logo sur notre site</div><div class="btn-offer"><button class="price-offer">Obtenir Membre Bienfaiteur</button></div></div>
+
+    <div class="member-offer"><div class="name-offer">Processus d'adhésion</div><div class="details-offer">● Remplir le formulaire en ligne <br>
+      ● Participation à une Coding Night d'essai <br>
+      
+      ● Validation par le comité</div><div class="btn-offer"><button class="price-offer">En savoir plus</button></div></div>
+  </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-title">
+        <h2>Contact</h2>
+        <div class="bar"></div>
+      </div>
+      <div class="contact-details">
+        <div class="contact-txt">
+          <p>
+           ByteSquad, c'est bien plus qu'un club de code : c'est une communauté vibrante où se rencontrent programmation, innovation et partage. Vous souhaitez découvrir nos ateliers pratiques, participer à nos hackathons stimulants ou simplement échanger avec d'autres passionnés ? Notre équipe est toujours disponible pour répondre à vos questions. Envoyez-nous un message via le bouton "Nous contacter" - nous nous engageons à vous répondre personnellement dans les 48 heures.
+<br><br>
+Localisés à l'Université des Sciencess et de la Technologie Houari Boumediene, nous avons bâti un espace unique où débutants et experts se retrouvent pour apprendre et créer ensemble. Coding Nights en présentiel, projets collaboratifs ou simples discussions tech autour d'un café - toutes les occasions sont bonnes pour partager notre passion.
+
+          </p>
+        </div>
+        <div class="contact-infos">
+          <div class="location">
+            <a href="https://maps.app.goo.gl/Bubfut9Ar1pWk5wo8" target="_blank">
+              <i class="fa-solid fa-location-dot"></i>USTHB</a
+            >
+          </div>
+          <div class="mail">
+            <a href="mailto:c.actif.gv@gmail.com">
+              <i class="fa-solid fa-envelope"></i>bytesquad@usthb.dz</a
+            >
+          </div>
+          <div class="social-media">
+            <p>Suivez-nous</p>
+            <a href="https://www.instagram.com/usthb_babez/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/USTHB1?locale=fr_FR"
+              target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </div>
+          <div class="contact-btn">
+            <a href="mailto:bytesquad@usthb.dz"
+              ><button>Contactez-nous</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footnav">
+        <a href="#notre-histoire" class="f-atems"><h5>Notre histoire</h5></a>
+        <a href="#nos-activites" class="f-atems"><h5>Nos activités</h5></a>
+        <a href="#notre-equipe" class="f-atems"><h5>Notre équipe</h5></a>
+        <a href="#nous-rejoindre" class="f-atems"><h5>Nous rejoindre</h5></a>
+        <a href="#contact" class="f-atems"><h5>Contact</h5></a>
+      </div>
+      <div class="credits">
+        <div class="client">
+          <p>ByteSquad - USTHB - Bab Ezzouar - Alger - Algérie.</p>
+        </div>
+        <div class="signature">
+          <p>
+            &copy; 2025. Développé par
+            <span>ByteSquad</span>.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
